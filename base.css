@@ -1,11 +1,15 @@
-    html,
+   :root {
+  --x: 50vw;
+  --y: 50vh;
+}
+   
+   html,
     body {
       margin: 0;
       padding: 0;
       height: 100%;
       background-color: #0a192f;
-      background-image: radial-gradient(circle at var(--x, var(--y)), rgba(255, 255, 255, 0.15), transparent 50%);
-      transition: background-position 0.1s;
+    
       color: #ccd6f6;
     }
 

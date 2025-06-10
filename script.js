@@ -1,4 +1,4 @@
-// === Mousemove effect ===
+
 function handleMouseMove(e) {
   const x = `${e.clientX}px`;
   const y = `${e.clientY}px`;
@@ -6,10 +6,10 @@ function handleMouseMove(e) {
   document.body.style.setProperty('--y', y);
 }
 
-// === Intersection Observer for showing elements ===
+
 function observeElements(selector, className, delay = 0) {
   const elements = document.querySelectorAll(selector);
-  
+
   const observer = new IntersectionObserver(entries => {
     entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
@@ -31,12 +31,20 @@ function observeElements(selector, className, delay = 0) {
 
 // === DOM Ready ===
 document.addEventListener('DOMContentLoaded', () => {
- 
+
   document.addEventListener('mousemove', handleMouseMove);
 
-  
-  observeElements('section', 'show');
-
  
+  observeElements('section', 'show');
   observeElements('.skill-card', 'slide-in', 450);
+
+
+  const menuBtn = document.getElementById('menu-btn');
+  const menu = document.getElementById('menu');
+
+  if (menuBtn && menu) {
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  }
 });
