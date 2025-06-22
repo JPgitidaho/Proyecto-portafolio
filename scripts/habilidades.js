@@ -6,41 +6,45 @@ export const habilidadesHTML = `
     MIS HABILIDADES
   </h2>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center max-w-4xl mx-auto p-2">
-    
-    <div class="bg-gray-800 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg "
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4  max-w-6xl mx-auto">    
+    <div class="bg-gray-800 w-full h-40  mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg "
          style="animation: pulse-html 2s infinite;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="h-10 mb-2">
+          <a href="https://jpgitidaho.github.io/Chamber-of-Commerce-Project/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="h-10 mb-2"></a>
       <p class="text-sm text-white">HTML</p>
     </div>
 
-    <div class="bg-gray-800 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg"
+    <div class="bg-gray-800 w-full h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg"
          style="animation: pulse-css 2s infinite;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="h-10 mb-2">
+          <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="h-10 mb-2">
+</a>
       <p class="text-sm text-white">CSS</p>
     </div>
 
-    <div class="bg-gray-800 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg"
+    <div class="bg-gray-800 w-full h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg"
          style="animation: pulse-js 2s infinite;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-10 mb-2">
+          <a href="https://jpgitidaho.github.io/JUEGO-GATO/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-10 mb-2">
+</a>
       <p class="text-sm text-white">JavaScript</p>
     </div>
 
-    <div class="bg-gray-800 px-2 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg"
+    <div class="bg-gray-800 px-2 w-full h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg"
          style="animation: pulse-tailwind 2s infinite;">
-      <img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-light.svg" alt="Tailwind" class="h-10 mb-2">
+          <a href="https://jpgitidaho.github.io/RICK-AND-MORTY/"><img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-light.svg" alt="Tailwind" class="h-10 mb-2">
+</a>
       <p class="text-sm text-white">Tailwind</p>
     </div>
 
-    <div class="bg-gray-800 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg"
+    <div class="bg-gray-800 w-full h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg"
          style="animation: pulse-python 2s infinite;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="h-10 mb-2">
+         <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="h-10 mb-2">
+</a>
       <p class="text-sm text-white">Python</p>
     </div>
 
-    <div class="bg-gray-800 w-40 h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-full shadow-lg"
+    <div class="bg-gray-800 w-full h-40 mx-auto flex flex-col items-center justify-center skill-card opacity-0 transform translate-y-6 transition duration-700 rounded-2xl shadow-lg"
          style="animation: pulse-csharp 2s infinite;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="h-10 mb-2">
+          <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="h-10 mb-2">
+</a>
       <p class="text-sm text-white">C#</p>
     </div>
   </div>
